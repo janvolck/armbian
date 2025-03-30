@@ -33,7 +33,8 @@ dtbo-$(CONFIG_ARCH_MESON) += \
 	meson-sm1-bananapi-uartAO_B.dtbo \
 	meson-sm1-jethome-jethub-j200-spi.dtbo \
 	meson-sm1-odroid-c4-i2c0.dtbo \
-	meson-sm1-odroid-c4-i2c1.dtbo
+	meson-sm1-odroid-c4-i2c1.dtbo \
+	meson-sm1-odroid-c4-onewire.dtbo
 
 scr-$(CONFIG_ARCH_MESON) += \
        meson-fixup.scr
